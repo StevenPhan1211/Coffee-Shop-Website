@@ -1,0 +1,798 @@
+{
+  "users": [
+    {
+      "id": "0301",
+      "name": "Tuấn đẹp trai",
+      "phone": "0123456789",
+      "email": "tuandeptrai@gmail.com",
+      "password": "123"
+    },
+    {
+      "id": "f760",
+      "name": "Tuấn ngầu lòi ",
+      "phone": "0123456789",
+      "email": "ttt@gmail.com",
+      "password": "123"
+    },
+    {
+      "id": "1732231155887",
+      "name": "Nguyễn Tý",
+      "phone": "0222222222",
+      "email": "tyngu@gmail.com",
+      "password": "123"
+    },
+    {
+      "id": "1732231344180",
+      "name": "Tuấn hay ho",
+      "phone": "0111111111",
+      "email": "tuanhayho@gmail.com",
+      "password": "123"
+    },
+    {
+      "id": "1732240574693",
+      "name": "tuan",
+      "phone": "0555555555",
+      "email": "tuan@gmail.com",
+      "password": "123"
+    }
+  ],
+  "loggedInUser": null,
+  "products": [
+    {
+      "id": "1",
+      "name": "Trà Sữa Truyền Thống",
+      "image": "/images/boba.jpg",
+      "size": [
+        "M",
+        "L"
+      ],
+      "price": {
+        "M": 20000,
+        "L": 25000
+      }
+    },
+    {
+      "id": "2",
+      "name": "Trà Sữa Matcha",
+      "image": "/images/matcha.jpg",
+      "size": [
+        "M",
+        "L"
+      ],
+      "price": {
+        "M": 50000,
+        "L": 68000
+      }
+    },
+    {
+      "id": "3",
+      "name": "Trà Sữa thạch trái cây",
+      "image": "/images/fruit-tea.jpg",
+      "size": [
+        "M",
+        "L"
+      ],
+      "price": {
+        "M": 35000,
+        "L": 45000
+      }
+    },
+    {
+      "id": "4",
+      "name": "Trà Sữa chôm chôm",
+      "image": "/images/rambutan-tea.jpg",
+      "size": [
+        "M",
+        "L"
+      ],
+      "price": {
+        "M": 35000,
+        "L": 45000
+      }
+    },
+    {
+      "id": "5",
+      "name": "Trà sữa bạc hà",
+      "image": "/images/mint-tea.jpg",
+      "size": [
+        "M",
+        "L"
+      ],
+      "price": {
+        "M": 21000,
+        "L": 31000
+      }
+    },
+    {
+      "id": "6",
+      "name": "Cacao sữa dừa",
+      "image": "/images/cacao.jpg",
+      "size": [
+        "M",
+        "L"
+      ],
+      "price": {
+        "M": 32000,
+        "L": 41000
+      }
+    },
+    {
+      "id": "7",
+      "name": "Trà dâu",
+      "image": "/images/strawberry-tea.jpg",
+      "size": [
+        "M",
+        "L"
+      ],
+      "price": {
+        "M": 25000,
+        "L": 32000
+      }
+    },
+    {
+      "id": "8",
+      "name": "Trà vải",
+      "image": "/images/vai-tea.jpg",
+      "size": [
+        "M",
+        "L"
+      ],
+      "price": {
+        "M": 33000,
+        "L": 45000
+      }
+    },
+    {
+      "id": "9",
+      "name": "Trà Thạch Đào",
+      "image": "/images/sakura-tea.jpg",
+      "size": [
+        "M",
+        "L"
+      ],
+      "price": {
+        "M": 42000,
+        "L": 56000
+      }
+    },
+    {
+      "id": "10",
+      "name": "Trà sữa bơ",
+      "image": "/images/avocado.jpg",
+      "size": [
+        "M",
+        "L"
+      ],
+      "price": {
+        "M": 42000,
+        "L": 56000
+      }
+    },
+    {
+      "id": "11",
+      "name": "Trà sữa Oreo",
+      "image": "/images/oreo-tea.jpg",
+      "size": [
+        "M",
+        "L"
+      ],
+      "price": {
+        "M": 30000,
+        "L": 42000
+      }
+    },
+    {
+      "id": "12",
+      "name": "Trà sữa pudding đậu đỏ",
+      "image": "/images/pudding-tea.jpg",
+      "size": [
+        "M",
+        "L"
+      ],
+      "price": {
+        "M": 55000,
+        "L": 65000
+      }
+    },
+    {
+      "id": "13",
+      "name": "Trà sữa phô mai",
+      "image": "/images/cheese-tea.jpg",
+      "size": [
+        "M",
+        "L"
+      ],
+      "price": {
+        "M": 55000,
+        "L": 65000
+      }
+    },
+    {
+      "id": "14",
+      "name": "Trà sữa khoai môn",
+      "image": "/images/khoaimon.jpg",
+      "size": [
+        "M",
+        "L"
+      ],
+      "price": {
+        "M": 55000,
+        "L": 65000
+      }
+    },
+    {
+      "id": "15",
+      "name": "Cà phê sữa đá",
+      "image": "/images/coffee.jpg",
+      "size": [
+        "M",
+        "L"
+      ],
+      "price": {
+        "M": 55000,
+        "L": 65000
+      }
+    },
+    {
+      "id": "16",
+      "name": "Trà đào",
+      "image": "/images/peach.jpg",
+      "size": [
+        "M",
+        "L"
+      ],
+      "price": {
+        "M": 55000,
+        "L": 65000
+      }
+    }
+  ],
+  "bills": [
+    {
+      "id": "ef30",
+      "date": "04:47:31 20/11/2024",
+      "items": [
+        {
+          "id": "1",
+          "name": "Trà Sữa Truyền Thống",
+          "size": "M",
+          "price": 20000,
+          "image": "/images/boba.jpg",
+          "quantity": 1
+        },
+        {
+          "id": "3",
+          "name": "Trà Sữa thạch trái cây",
+          "size": "L",
+          "price": 45000,
+          "image": "/images/fruit-tea.jpg",
+          "quantity": 1
+        }
+      ],
+      "subtotal": 65000,
+      "vat": 6500,
+      "total": 71500,
+      "userId": "0301"
+    },
+    {
+      "id": "9eb3",
+      "date": "05:52:52 20/11/2024",
+      "items": [
+        {
+          "id": "2",
+          "name": "Trà Sữa Matcha",
+          "size": "M",
+          "price": 50000,
+          "image": "/images/matcha.jpg",
+          "quantity": 1
+        },
+        {
+          "id": "4",
+          "name": "Trà Sữa chôm chôm",
+          "size": "M",
+          "price": 35000,
+          "image": "/images/rambutan-tea.jpg",
+          "quantity": 1
+        }
+      ],
+      "subtotal": 85000,
+      "vat": 8500,
+      "total": 93500,
+      "userId": "0301"
+    },
+    {
+      "id": "4c53",
+      "date": "06:05:57 20/11/2024",
+      "items": [
+        {
+          "id": "6",
+          "name": "Cacao sữa dừa",
+          "size": "L",
+          "price": 41000,
+          "image": "/images/cacao.jpg",
+          "quantity": 1
+        },
+        {
+          "id": "7",
+          "name": "Trà dâu",
+          "size": "L",
+          "price": 32000,
+          "image": "/images/strawberry-tea.jpg",
+          "quantity": 1
+        }
+      ],
+      "subtotal": 73000,
+      "vat": 7300,
+      "total": 80300,
+      "userId": "0301"
+    },
+    {
+      "id": "a602",
+      "date": "06:17:34 20/11/2024",
+      "items": [
+        {
+          "id": "2",
+          "name": "Trà Sữa Matcha",
+          "size": "L",
+          "price": 68000,
+          "image": "/images/matcha.jpg",
+          "quantity": 5
+        },
+        {
+          "id": "3",
+          "name": "Trà Sữa thạch trái cây",
+          "size": "L",
+          "price": 45000,
+          "image": "/images/fruit-tea.jpg",
+          "quantity": 10
+        },
+        {
+          "id": "4",
+          "name": "Trà Sữa chôm chôm",
+          "size": "M",
+          "price": 35000,
+          "image": "/images/rambutan-tea.jpg",
+          "quantity": 5
+        }
+      ],
+      "subtotal": 965000,
+      "vat": 96500,
+      "total": 1061500,
+      "userId": "0301"
+    },
+    {
+      "id": "5ad4",
+      "date": "06:42:31 20/11/2024",
+      "items": [
+        {
+          "id": "2",
+          "name": "Trà Sữa Matcha",
+          "size": "L",
+          "price": 68000,
+          "image": "/images/matcha.jpg",
+          "quantity": 1
+        }
+      ],
+      "subtotal": 68000,
+      "vat": 6800,
+      "total": 74800,
+      "userId": "0301"
+    },
+    {
+      "id": "7f54",
+      "date": "06:43:14 20/11/2024",
+      "items": [
+        {
+          "id": "10",
+          "name": "Trà sữa bơ",
+          "size": "L",
+          "price": 56000,
+          "image": "/images/avocado.jpg",
+          "quantity": 1
+        },
+        {
+          "id": "11",
+          "name": "Trà sữa Oreo",
+          "size": "M",
+          "price": 30000,
+          "image": "/images/oreo-tea.jpg",
+          "quantity": 1
+        }
+      ],
+      "subtotal": 86000,
+      "vat": 8600,
+      "total": 94600,
+      "userId": "0301"
+    },
+    {
+      "id": "d127",
+      "date": "07:20:57 20/11/2024",
+      "items": [
+        {
+          "id": "2",
+          "name": "Trà Sữa Matcha",
+          "size": "L",
+          "price": 68000,
+          "image": "/images/matcha.jpg",
+          "quantity": 1
+        }
+      ],
+      "subtotal": 68000,
+      "vat": 6800,
+      "total": 74800,
+      "userId": "0301"
+    },
+    {
+      "id": "4666",
+      "date": "07:23:37 20/11/2024",
+      "items": [
+        {
+          "id": "2",
+          "name": "Trà Sữa Matcha",
+          "size": "L",
+          "price": 68000,
+          "image": "/images/matcha.jpg",
+          "quantity": 1
+        }
+      ],
+      "subtotal": 68000,
+      "vat": 6800,
+      "total": 74800,
+      "userId": "0301"
+    },
+    {
+      "id": "bab5",
+      "date": "07:29:09 20/11/2024",
+      "items": [
+        {
+          "id": "2",
+          "name": "Trà Sữa Matcha",
+          "size": "L",
+          "price": 68000,
+          "image": "/images/matcha.jpg",
+          "quantity": 6
+        }
+      ],
+      "subtotal": 408000,
+      "vat": 40800,
+      "total": 448800,
+      "userId": "0301"
+    },
+    {
+      "id": "220d",
+      "date": "07:36:26 20/11/2024",
+      "items": [
+        {
+          "id": "8",
+          "name": "Trà vải",
+          "size": "M",
+          "price": 33000,
+          "image": "/images/vai-tea.jpg",
+          "quantity": 1
+        }
+      ],
+      "subtotal": 33000,
+      "vat": 3300,
+      "total": 36300,
+      "userId": "0301"
+    },
+    {
+      "id": "d5d0",
+      "date": "05:22:02 21/11/2024",
+      "items": [
+        {
+          "id": "2",
+          "name": "Trà Sữa Matcha",
+          "size": "M",
+          "price": 50000,
+          "image": "/images/matcha.jpg",
+          "quantity": 1
+        },
+        {
+          "id": "1",
+          "name": "Trà Sữa Truyền Thống",
+          "size": "L",
+          "price": 25000,
+          "image": "/images/boba.jpg",
+          "quantity": 1
+        },
+        {
+          "id": "2",
+          "name": "Trà Sữa Matcha",
+          "size": "L",
+          "price": 68000,
+          "image": "/images/matcha.jpg",
+          "quantity": 1
+        },
+        {
+          "id": "4",
+          "name": "Trà Sữa chôm chôm",
+          "size": "M",
+          "price": 35000,
+          "image": "/images/rambutan-tea.jpg",
+          "quantity": 1
+        }
+      ],
+      "subtotal": 178000,
+      "vat": 17800,
+      "total": 195800,
+      "userId": "0301"
+    },
+    {
+      "id": "8eda",
+      "date": "05:39:40 21/11/2024",
+      "items": [
+        {
+          "id": "8",
+          "name": "Trà vải",
+          "size": "L",
+          "price": 45000,
+          "image": "/images/vai-tea.jpg",
+          "quantity": 1
+        }
+      ],
+      "subtotal": 45000,
+      "vat": 4500,
+      "total": 49500,
+      "userId": "0301"
+    },
+    {
+      "id": "eaae",
+      "date": "06:02:31 21/11/2024",
+      "items": [
+        {
+          "id": "2",
+          "name": "Trà Sữa Matcha",
+          "size": "L",
+          "price": 68000,
+          "image": "/images/matcha.jpg",
+          "quantity": 1
+        }
+      ],
+      "subtotal": 68000,
+      "vat": 6800,
+      "total": 74800,
+      "userId": "0301"
+    },
+    {
+      "id": "a689",
+      "date": "23:29:23 21/11/2024",
+      "items": [
+        {
+          "id": "6",
+          "name": "Cacao sữa dừa",
+          "size": "M",
+          "price": 32000,
+          "image": "/images/cacao.jpg",
+          "quantity": 1
+        }
+      ],
+      "subtotal": 32000,
+      "vat": 3200,
+      "total": 35200,
+      "userId": "0301"
+    },
+    {
+      "id": "c8fc",
+      "date": "04:10:03 22/11/2024",
+      "items": [
+        {
+          "id": "9",
+          "name": "Trà Thạch Đào",
+          "size": "L",
+          "price": 56000,
+          "image": "/images/sakura-tea.jpg",
+          "quantity": 4
+        }
+      ],
+      "subtotal": 224000,
+      "vat": 22400,
+      "total": 246400,
+      "userId": "0301"
+    },
+    {
+      "id": "8ae4",
+      "date": "05:51:59 22/11/2024",
+      "items": [
+        {
+          "id": "6",
+          "name": "Cacao sữa dừa",
+          "size": "M",
+          "price": 32000,
+          "image": "/images/cacao.jpg",
+          "quantity": 1
+        },
+        {
+          "id": "5",
+          "name": "Trà sữa bạc hà",
+          "size": "L",
+          "price": 31000,
+          "image": "/images/mint-tea.jpg",
+          "quantity": 2
+        }
+      ],
+      "subtotal": 94000,
+      "vat": 9400,
+      "total": 103400,
+      "userId": "0301"
+    },
+    {
+      "id": "d5a8",
+      "date": "06:20:07 22/11/2024",
+      "items": [
+        {
+          "id": "2",
+          "name": "Trà Sữa Matcha",
+          "size": "M",
+          "price": 50000,
+          "image": "/images/matcha.jpg",
+          "quantity": 3
+        },
+        {
+          "id": "4",
+          "name": "Trà Sữa chôm chôm",
+          "size": "L",
+          "price": 45000,
+          "image": "/images/rambutan-tea.jpg",
+          "quantity": 2
+        }
+      ],
+      "subtotal": 240000,
+      "vat": 24000,
+      "total": 264000,
+      "userId": "1732231155887"
+    },
+    {
+      "id": "6167",
+      "date": "08:58:19 22/11/2024",
+      "items": [
+        {
+          "id": "2",
+          "name": "Trà Sữa Matcha",
+          "size": "M",
+          "price": 50000,
+          "image": "/images/matcha.jpg",
+          "quantity": 2
+        },
+        {
+          "id": "2",
+          "name": "Trà Sữa Matcha",
+          "size": "L",
+          "price": 68000,
+          "image": "/images/matcha.jpg",
+          "quantity": 1
+        }
+      ],
+      "subtotal": 168000,
+      "vat": 16800,
+      "total": 184800,
+      "userId": "1732240574693"
+    },
+    {
+      "id": "33ac",
+      "date": "09:49:19 22/11/2024",
+      "items": [
+        {
+          "id": "2",
+          "name": "Trà Sữa Matcha",
+          "size": "L",
+          "price": 68000,
+          "image": "/images/matcha.jpg",
+          "quantity": 1
+        }
+      ],
+      "subtotal": 68000,
+      "vat": 6800,
+      "total": 74800,
+      "userId": "0301"
+    },
+    {
+      "id": "e23e",
+      "date": "09:52:28 22/11/2024",
+      "items": [
+        {
+          "id": "3",
+          "name": "Trà Sữa thạch trái cây",
+          "size": "L",
+          "price": 45000,
+          "image": "/images/fruit-tea.jpg",
+          "quantity": 1
+        },
+        {
+          "id": "4",
+          "name": "Trà Sữa chôm chôm",
+          "size": "L",
+          "price": 45000,
+          "image": "/images/rambutan-tea.jpg",
+          "quantity": 1
+        },
+        {
+          "id": "8",
+          "name": "Trà vải",
+          "size": "M",
+          "price": 33000,
+          "image": "/images/vai-tea.jpg",
+          "quantity": 1
+        },
+        {
+          "id": "7",
+          "name": "Trà dâu",
+          "size": "L",
+          "price": 32000,
+          "image": "/images/strawberry-tea.jpg",
+          "quantity": 1
+        },
+        {
+          "id": "6",
+          "name": "Cacao sữa dừa",
+          "size": "M",
+          "price": 32000,
+          "image": "/images/cacao.jpg",
+          "quantity": 2
+        }
+      ],
+      "subtotal": 219000,
+      "vat": 21900,
+      "total": 240900,
+      "userId": "0301"
+    }
+  ],
+  "reviews": [
+    {
+      "id": "e0e9",
+      "phone": "0123456789",
+      "rating": 1,
+      "text": "do ec",
+      "productId": "3",
+      "userId": "0301"
+    },
+    {
+      "id": "26fc",
+      "phone": "0123456789",
+      "rating": 5,
+      "text": "ngon",
+      "productId": "1",
+      "userId": "0301"
+    },
+    {
+      "id": "7e96",
+      "phone": "0123456789",
+      "rating": 3,
+      "text": "qua dang",
+      "productId": "3",
+      "userId": "0301"
+    },
+    {
+      "id": "366b",
+      "phone": "0123456789",
+      "rating": 3,
+      "text": "tạm ổn",
+      "productId": "9",
+      "userId": "0301"
+    },
+    {
+      "id": "a8e0",
+      "phone": "0123456789",
+      "rating": 3,
+      "text": "cũng được",
+      "productId": "9",
+      "userId": "0301"
+    },
+    {
+      "id": "4cf5",
+      "phone": "0123456789",
+      "rating": 4,
+      "text": "ngon đó",
+      "productId": "7",
+      "userId": "0301"
+    },
+    {
+      "id": "3830",
+      "phone": "0555555555",
+      "rating": 3,
+      "text": "ngon",
+      "productId": "2",
+      "userId": "1732240574693"
+    }
+  ]
+}
