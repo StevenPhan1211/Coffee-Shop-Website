@@ -1,4 +1,4 @@
-# my-project
+# Coffee Shop Website
 
 ## Project setup
 ```
